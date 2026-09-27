@@ -1,0 +1,18 @@
+{
+  "name": "qq-deepseek-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "NapCat（OneBot 11）+ DeepSeek API 的 QQ 机器人",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env index.js",
+    "test": "node --env-file-if-exists=.env test/unit.mjs",
+    "simulate": "node test/simulate.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
